@@ -1,5 +1,4 @@
-import selenium
-import behave 
+from behave import given,when,then
 from webapp import webapp
 
 driver = webapp.get_driver()
