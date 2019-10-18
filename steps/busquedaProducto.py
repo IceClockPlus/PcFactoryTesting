@@ -1,4 +1,5 @@
-from behave import *
+import selenium
+import behave 
 from webapp import webapp
 
 driver = webapp.get_driver()
