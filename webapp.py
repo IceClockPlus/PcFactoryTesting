@@ -2,8 +2,7 @@ from selenium import webdriver
 class WebApp:
     instance = None
     driver=None 
-    driverpath="C:/WebDriver/Chrome/chromedriver_77.exe"
-    driverpath="c:/webdrivers/chromedriver75/chromedriver.exe"
+    driverpath="E:\webdrivers\chromedriver77\chromedriver.exe"
     @classmethod
     def get_instance(cls):
         if cls.instance is None:
