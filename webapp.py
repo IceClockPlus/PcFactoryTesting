@@ -2,7 +2,7 @@ from selenium import webdriver
 class WebApp:
     instance = None
     driver=None 
-    driverpath="E:\webdrivers\chromedriver77\chromedriver.exe"
+    driverpath="C:\webdrivers\chromedriver77\chromedriver.exe"
     @classmethod
     def get_instance(cls):
         if cls.instance is None:
@@ -24,4 +24,4 @@ class WebApp:
             self.driver.quit()  
 
 webapp = WebApp.get_instance()
- 
+
